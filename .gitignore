@@ -1,0 +1,9 @@
+# Ignoriere alle Dateien mit den Endungen:
+# *.xx
+
+# Ignoriere die Verzeichnisse:
+data/
+database/
+
+# Ignoriere alle Dateien mit dem Namen:
+# beispiel.txt
