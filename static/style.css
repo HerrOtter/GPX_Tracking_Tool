@@ -1,0 +1,114 @@
+/* Reset */
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/* General */
+h1, p, label, input, button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fbfbfd;
+}
+
+body {
+    background-color: #fbfbfd;
+}
+
+input {
+    padding: 1rem;
+    font-weight: 100;
+}
+
+/* Header */
+
+header {
+    height: 3rem;
+    background-color: #1d1d1f;
+}
+
+header h1 {
+    color: #E8E8ED;
+    text-transform: uppercase;
+    padding: 0.30rem 0 0.15rem 1rem;
+}
+
+/* Wrapper */
+
+/* Section Upper */
+
+#upper {
+    height: 12rem;
+    width: 100%;
+    border-bottom: #1d1d1f thin solid;
+}
+
+#leftblock {
+    width: 30%;
+    display: inline-block;
+}
+
+.left {
+    display: block;
+    color: #1d1d1f;
+    margin: 0.25rem 2.5rem;
+    font-size: 1rem;
+}
+
+label.left {
+    margin-top: 0.5rem;
+}
+
+label.left, label.right {
+    font-weight: 600;
+}
+
+#rightblock {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top; /* Anpassung */
+    margin-top: 2rem;
+}
+
+.right {
+    color: #1d1d1f;
+    font-size: 1rem;
+}
+
+input.right {
+    margin: 0 1.15rem 0 0.5rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+#buttons button {
+    margin-right: 1rem
+}
+
+#upper button {
+    font-size: 1.25rem;
+    padding: 0.25rem 2.5rem;
+    background-color: #06c;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#upper button:hover {
+    background-color: #0077ED;
+}
+
+
+#lower {
+    height: 31.8rem;
+}
+
+#map {
+    height: 100%;
+}
